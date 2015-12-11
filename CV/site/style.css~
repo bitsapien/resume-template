@@ -1,0 +1,327 @@
+
+/* Borders and Spacing */
+body {
+  font-size:1.2em;
+  font-family: 'Open Sans', sans-serif;
+ -webkit-print-color-adjust:exact;
+	color:#555 !important;
+  border:0;
+}
+
+/* make our pages be full width and full height */
+/* positioned absolutely so that the pages can overlap each other as they enter and leave */
+.page        {
+    bottom:0; 
+    padding-top:200px;
+    position:absolute; 
+    text-align:center;
+    top:0;  
+    width:100%; 
+}
+
+
+.vertical-center {
+  min-height: 80%;
+  min-height:80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#social{
+  position:absolute;
+  
+  right:15%;
+}
+#hover-text {
+   font-size:15px;
+   opacity: 1;
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+   text-align:center;
+}
+
+.fa{
+ font-size: 20px;
+}
+
+.pp{
+  height:200px;
+  width:154px;
+  padding:0;
+  margin:0;
+  margin-right:10px;
+  border:0 !important;
+}
+.no-line {
+ border:none;
+}
+.black-bg {
+
+ background-color:#000;
+ color:#FFF;
+ padding:6px;
+ display: inline-block;
+ margin:5px;
+ -webkit-transition:all linear 0.5s;
+ transition:all linear 0.5s;
+}
+
+.container {
+
+  background-color: #fff;
+  padding: 25px 50px;
+  margin: 20px auto;
+}
+
+.no-line {
+  border-bottom: 0px solid #dddddd;
+
+}
+.span9 {
+  padding-top: 10px;
+}
+article {
+  padding: 20px 0;
+}
+footer {
+  text-align: right;
+  padding-top: 10px;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+}
+.skills {
+  border: 0;
+}
+/* Links */
+a {
+  color: #000000;
+  border-bottom: 1px solid #dddddd;
+  -o-transition: color 0.5s ease-out, background 0.6s ease-in;
+  -ms-transition: color 0.5s ease-out, background 0.6s ease-in;
+  -moz-transition: color 0.5s ease-out, background 0.6s ease-in;
+  -webkit-transition: color 0.5s ease-out, background 0.6s ease-in;
+  /* ...and now override with proper CSS property */
+
+  transition: color 0.5s ease-out, background 0.6s ease-in;
+}
+a:hover {
+  color: #555555;
+  background: #F9F9F9;
+  text-decoration: none;
+}
+footer a {
+  padding: 0 ;
+}
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Gotham Narrow Book','Gotham Book', Gotham-Book,'Lato', sans-serif;
+  font-weight: 400;
+  color: #000;
+  line-height: 100%;
+}
+h1 {
+  font-size: 46px;
+
+  padding-top: 10px;
+  font-weight: 700;
+  font-family: 'CorisandeBold','Gotham Book', Gotham-Book,'Lato', sans-serif;
+
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 21px;
+   
+}
+h3 {
+  font-size: 20px ;
+}
+h4 {
+  font-size: 16px ;
+}
+h5 {
+  font-size: 12px;
+}
+strong {
+  font-weight: 400;
+}
+p {
+  line-height:23px;
+  font-size: 16px;
+  margin: 0px;
+
+}
+.welcome {
+  font-size: 13px;
+  text-indent: 0px;
+  line-height: 24px;
+  text-align:justify;
+}
+.auth {
+  text-align: right;
+  font-size: 16px;
+}
+/* Contact */
+.social a {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.social {
+  padding: 30px 0px;
+  font-size: 14px;
+  line-height: 23px;
+}
+.socual li {
+  list-style: none;
+}
+/* Images */
+img {
+  border: 1px solid #dddddd;
+  margin: 15px;
+  float: left;
+}
+/* Responsive */
+@media (max-width: 800px) {
+  body {
+    display: block;
+    padding: 0px;
+  }
+  .container {
+    margin: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .social {
+    margin-top: 10px;
+  }
+  .social ul li {
+    display: inline-block;
+  }
+  .social ul {
+    margin-top: 21px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 15px ;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    padding: 15px ;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .social ul li {
+    display: block;
+  }
+  .social ul {
+    margin-top: 16px;
+    padding: 0 34px;
+  }
+  article {
+    padding: 10px 0;
+  }
+  .span9 {
+    padding-top: 0px;
+  }
+}
+span { 
+	font-size:12px;
+	color:#777;
+	
+}
+
+/* open-source-evangelist */
+
+
+.rms{
+ position:fixed;
+ bottom:-20px;
+ right:-20px;
+ border:0;
+ height:100vh;
+}
+.scattered{
+ border:0;
+ margin-top:-2px;
+}
+.pic-caption {
+ color:#FFF;
+ font-weight:bold;
+ font-size:32px;
+ padding:5px;
+}
+.ose {
+width:55	%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATIONS
+============================================================================= */
+
+/* leaving animations ----------------------------------------- */
+/* rotate and fall */
+@keyframes rotateFall {
+    0%      { transform: rotateZ(0deg); }
+    20%     { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+    40%     { transform: rotateZ(17deg); }
+    60%     { transform: rotateZ(16deg); }
+    100%    { transform: translateY(100%) rotateZ(17deg); }
+}
+
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+/* rotate out newspaper */
+@keyframes rotateOutNewspaper {
+    to      { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
+}
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp {
+    from    { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+
+    .ng-enter           { animation: scaleUp 0.5s both ease-in; z-index: 8888; }
+    .ng-leave           { animation: slideOutLeft 0.5s both ease-in; z-index: 9999; }
+
+
+

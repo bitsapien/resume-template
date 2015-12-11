@@ -1,0 +1,19 @@
+<div class="container">
+ <img class="rms" src="richard_stallman.png">
+ <div class="row-fluid">
+  <h1 class="black-bg">I'm an Open Source Evangelist</h1>
+ </div>
+
+ <br/>
+
+ <div class="row-fluid"> 
+	<div class="black-bg"><img class="img-responsive scattered black-bg" src="ubuntu.png"><span class="pic-caption">Ubuntu Lover</span></div>
+ </div>
+ <div class="row-fluid"> 
+	<div class="black-bg"><img class="img-responsive scattered black-bg" src="fsa.png"><span class="pic-caption">Firefox Student Ambassador</span></div>
+ </div>
+ <div class="row-fluid"> 
+	<div class="black-bg ose">I have a deep respect for the open source movement. </div>
+ </div>
+ 
+</div>
