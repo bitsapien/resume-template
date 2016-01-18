@@ -7,6 +7,7 @@ body {
   font-family: 'Gotham Narrow Book','Gotham Book', Gotham-Book,'Lato', sans-serif;
  -webkit-print-color-adjust:exact;
 	color:#555 !important;
+    margin-right: 200px;
 }
 .pp{
   height:120px;
@@ -28,11 +29,12 @@ body {
 }
 @media print {
 .black-bg {
- background-color:#000;
- color:#FFF;
- padding:5px;
- display: inline-block;
- margin:0;
+ background-color:#000 !important;
+ color:#FFF !important;
+ padding:5px !important;
+ display: inline-block !important;
+ margin:0 !important;
+-webkit-print-color-adjust: exact !important; 
 }}
 
 .container {
@@ -123,7 +125,7 @@ strong {
 }
 p {
   line-height:23px;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0px;
 
 }
@@ -212,6 +214,7 @@ span {
 	color:#777;
 	
 }
+
 /*  Font Awesome
     the iconic font designed for use with Twitter Bootstrap
     -------------------------------------------------------
